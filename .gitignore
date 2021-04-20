@@ -6,3 +6,4 @@ my_data.db
 .DS_Store
 env.py
 *__pycache__*
+*.pyc
