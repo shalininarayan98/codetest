@@ -1,6 +1,6 @@
 .env
 bin
-_pycache_/
+__pycache__ 
 .venv
 my_data.db
 .DS_Store
