@@ -4,3 +4,4 @@ _pycache_
 .venv
 my_data.db
 .DS_Store
+env.py
