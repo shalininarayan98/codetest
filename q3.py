@@ -1,5 +1,8 @@
 import pandas as pd
-test = pd.read_csv('/Users/shalini/Documents/neh-grants-2010-2019-csv-1.csv')
+from decouple import config
+
+FilePath= config('LOCATION')
+test = pd.read_csv(FilePath)
 
 def question_three(conn):
     df3 = (pd.DataFrame(test, columns = ["AppNumber","ApplicantType","Institution","OrganizationType","InstCity","InstState","InstPostalCode"

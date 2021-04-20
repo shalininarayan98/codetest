@@ -1,11 +1,7 @@
 .env
 bin
-**/__pycache__
 .venv
 my_data.db
 .DS_Store
 env.py
-*__pycache__*
-*.pyc
-/pycache/*
 __pycache__/
