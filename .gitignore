@@ -7,3 +7,4 @@ my_data.db
 env.py
 *__pycache__*
 *.pyc
+/pycache/*
